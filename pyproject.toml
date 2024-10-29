@@ -1,0 +1,7 @@
+[project]
+name = "Python-Consumer-Producer"
+version = "0.0.1"
+# ...
+dependencies = [
+"pylorem"
+]
