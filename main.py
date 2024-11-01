@@ -1,10 +1,11 @@
 # SuperFastPython.com
 # example of one producer and one consumer with threads
-from pylorem import LoremIpsum
 from queue import Queue
 from random import random
 from threading import Thread
 from time import sleep
+
+from pylorem import LoremIpsum
 
 
 def producer(queue):
